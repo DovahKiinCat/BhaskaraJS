@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equação 2° grau</title>
+</head>
+<body>
+    
+    <div class="tela" id="tela">
+        <ul>
+            <h1 class="title">Calcular Equação de 2° Grau</h1>
+            <input class="Iniciar" id="Iniciar" type="button" value="Iniciar Cálculo">
+        </ul>
+    </div>
+
+    <div class="Calcular" id="calc">
+        <label for="Valor1" name="jao">Valor de A</label>
+        <input type="number" name="Valores" id="Valor1">
+
+        <label for="Valor2" name="jao">Valor de B</label>
+        <input type="number" name="Valores" id="Valor2">
+
+        <label for="Valor3" name="jao">Valor de C</label>
+        <input type="number" name="Valores" id="Valor3">
+
+        <div>
+            <button class="Enviar" id="Enviar">Calcular!</button>
+            <button class="Limpar" id="Limpar">Limpar</button>
+            <h2 class="inst">Considere: ax2 + bx + c = 0</h2>
+        </div>
+        
+    </div>
+    
+    <div class="resultados">
+        <h2></h2>
+        <div>
+            <input class="return-button" id="returnbutton" type="button" value="Continuar Calculando">
+        </div>
+        
+        <div>
+            <input class="end-button" id="endbutton" type="button" value="Finalizar">
+        </div>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
